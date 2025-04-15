@@ -31,7 +31,7 @@ const TransactionsPage = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-bold mb-6">Transaction History</h1>
+      <h1 className="text-3xl text-black font-bold mb-6">Transaction History</h1>
       {loading ? (
         <p className="mt-6">Loading transactions...</p>
       ) : error ? (

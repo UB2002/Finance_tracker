@@ -94,7 +94,7 @@ const DashboardPage = () => {
   return (
     <div className="container mx-auto p-4 space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Dashboard</h1>
+        <h1 className="text-3xl text-black font-bold">Dashboard</h1>
         <BudgetSettings onSave={setBudgets} />
       </div>
       
